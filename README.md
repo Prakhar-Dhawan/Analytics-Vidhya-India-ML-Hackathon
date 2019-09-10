@@ -2,6 +2,8 @@ We were required to tedict whether the loan deliquency based on the past paymnet
 by the user while applying for the loan.
 
 Various features available are:
+
+
 loan_id	source	
 financial_institution	 
 interest_rate	
