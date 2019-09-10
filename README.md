@@ -1,4 +1,5 @@
-We were required to tedict whether the loan deliquency based on the past paymnet history of user and other details provided by the user while applying for the loan.
+We were required to tedict whether the loan deliquency based on the past paymnet history of user and other details provided 
+by the user while applying for the loan.
 
 Various features available are:
 loan_id	source	
@@ -29,4 +30,3 @@ m10 - "  "    "         "      "   "  10th   "       "
 m11	- "  "    "         "      "   "  11th   "       "
 m12	- "  "    "         "      "   "  12th   "       "
 c- Prediction whether the loan will be delinquent in next coming year.
-
