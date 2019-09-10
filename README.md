@@ -36,7 +36,7 @@ insurance_type
 
 m1	- No of months deliquency for the 1st months payment
 
-m2	- "  "    "         "      "   "  2nd    "       "
+m2	- "  "    "         "      "   "  2nd    "       " 
 
 m3	- "  "    "         "      "   "  3rd    "       "
 
