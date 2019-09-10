@@ -3,7 +3,7 @@ by the user while applying for the loan.
 
 Various features available are:
 loan_id	source	
-financial_institution	
+financial_institution	 
 interest_rate	
 unpaid_principal_bal	
 loan_term	
