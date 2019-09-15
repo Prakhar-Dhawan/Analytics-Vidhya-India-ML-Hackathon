@@ -35,6 +35,5 @@ loan deliquency status (0 = non deliquent, 1 = deliquent)
 test.zip contains test.csv which has details of all loans for which the participants are to submit the delinquency status - 0/1 (not probability)
 
 
-
 Evaluation Metric
 Submissions are evaluated on F1-Score between the predicted class and the observed target.
