@@ -1,4 +1,4 @@
-We were required to tedict whether the loan deliquency based on the past payment history of user and other details provided 
+We were required to predict whether the loan deliquency based on the past payment history of user and other details provided 
 by the user while applying for the loan.
 
 Various features available are:
