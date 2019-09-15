@@ -54,7 +54,10 @@ loan deliquency status (0 = non deliquent, 1 = deliquent)
 Evaluation Metric
 Submissions are evaluated on F1-Score between the predicted class and the observed target.
 
+
 Language: Python
+
 IDE: Spyder
+
 F1 score: 0.32
-Language
+
