@@ -6,7 +6,6 @@ Loan default prediction is one of the most critical and crucial problem faced by
 
 Given the information like mortgage details, borrowers related details and payment details, our objective is to identify the delinquency status of loans for the next month given the delinquency status for the previous 12 months (in number of months)
 
-Data Description
 
 
 Data Dictionary:
