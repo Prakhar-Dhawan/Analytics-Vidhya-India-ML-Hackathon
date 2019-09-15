@@ -8,6 +8,7 @@ Given the information like mortgage details, borrowers related details and payme
 
 
 
+
 Data Dictionary:
 
 loan_id	Unique loan ID	
