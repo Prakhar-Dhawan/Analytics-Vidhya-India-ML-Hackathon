@@ -1,61 +1,41 @@
-We were required to predict whether the loan deliquency based on the past payment history of user and other details provided 
-by the user while applying for the loan.
+Analytics Vidhya - India ML Hiring Hackathon 2019
 
-Various features available are:
+Problem Statement:
+Loan Delinquency Prediction
+Loan default prediction is one of the most critical and crucial problem faced by financial institutions and organizations as it has a noteworthy effect on the profitability of these institutions. In recent years, there is a tremendous increase in the volume of non – performing loans which results in a jeopardizing effect on the growth of these institutions. Therefore, to maintain a healthy portfolio, the banks put stringent monitoring and evaluation measures in place to ensure timely repayment of loans by borrowers. Despite these measures, a major proportion of loans become delinquent. Delinquency occurs when a borrower misses a payment against his/her loan.
+
+Given the information like mortgage details, borrowers related details and payment details, our objective is to identify the delinquency status of loans for the next month given the delinquency status for the previous 12 months (in number of months)
+
+Data Description
 
 
-loan_id	source	
+Data Dictionary:
+Predicors (features):
+loan_id	Unique loan ID
+source	Loan origination channel
+financial_institution	Name of the bank
+interest_rate	Loan interest rate
+unpaid_principal_bal	Loan unpaid principal balance
+loan_term	Loan term (in days)
+origination_date	Loan origination date (YYYY-MM-DD)
+first_payment_date	First instalment payment date
+loan_to_value	Loan to value ratio
+number_of_borrowers	Number of borrowers
+debt_to_income_ratio	Debt-to-income ratio
+borrower_credit_score	Borrower credit score
+loan_purpose	Loan purpose
+insurance_percent	Loan Amount percent covered by insurance
+co-borrower_credit_score	Co-borrower credit score
+insurance_type	0 - Premium paid by borrower, 1 - Premium paid by Lender
+m1 to m12	Month-wise loan performance (deliquency in months)
+m13	target, 
 
-financial_institution	 
+Response:
+loan deliquency status (0 = non deliquent, 1 = deliquent)
 
-interest_rate	
+test.zip contains test.csv which has details of all loans for which the participants are to submit the delinquency status - 0/1 (not probability)
 
-unpaid_principal_bal	
 
-loan_term	
 
-origination_date	
-
-first_payment_date	
-
-loan_to_value	
-
-number_of_borrowers	
-
-debt_to_income_ratio	
-
-borrower_credit_score	
-
-loan_purpose	
-
-insurance_percent	
-
-co_borrower_credit_score	
-
-insurance_type	
-
-m1	- No of months deliquency for the 1st months payment
-
-m2	- "  "    "         "      "   "  2nd    "       " 
-
-m3	- "  "    "         "      "   "  3rd    "       "
-
-m4	- "  "    "         "      "   "  4th    "       "
-
-m5	- "  "    "         "      "   "  5th    "       "
-
-m6	- "  "    "         "      "   "  6th    "       "
-
-m7	- "  "    "         "      "   "  7th    "       "
-
-m8	- "  "    "         "      "   "  8th    "       "
-
-m9	- "  "    "         "      "   "  9th    "       "
-
-m10 - "  "    "         "      "   "  10th   "       "
-
-m11	- "  "    "         "      "   "  11th   "       "
-
-m12	- "  "    "         "      "   "  12th   "       "
-
-c- Prediction whether the loan will be delinquent in next coming year.
+Evaluation Metric
+Submissions are evaluated on F1-Score between the predicted class and the observed target.
